@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IntroViewController.h
 //  KicksAdvisor
 //
 //  Created by Gai, Fabio on 18/04/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface IntroViewController : UIViewController{
+    UIWindow* topWindow;
+    
+}
 @end
-
