@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5261749B1AE297BC006ABCE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261749A1AE297BC006ABCE5 /* main.m */; };
+		5261749E1AE297BC006ABCE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261749D1AE297BC006ABCE5 /* AppDelegate.m */; };
+		526174A11AE297BC006ABCE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174A01AE297BC006ABCE5 /* ViewController.m */; };
+		526174A41AE297BC006ABCE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526174A21AE297BC006ABCE5 /* Main.storyboard */; };
+		526174A61AE297BC006ABCE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526174A51AE297BC006ABCE5 /* Images.xcassets */; };
+		526174A91AE297BC006ABCE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526174A71AE297BC006ABCE5 /* LaunchScreen.xib */; };
+		526174B51AE297BC006ABCE5 /* KicksAdvisorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174B41AE297BC006ABCE5 /* KicksAdvisorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526174AF1AE297BC006ABCE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5261748D1AE297BC006ABCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526174941AE297BC006ABCE5;
+			remoteInfo = KicksAdvisor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		526174951AE297BC006ABCE5 /* KicksAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KicksAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526174991AE297BC006ABCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5261749A1AE297BC006ABCE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5261749C1AE297BC006ABCE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5261749D1AE297BC006ABCE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5261749F1AE297BC006ABCE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		526174A01AE297BC006ABCE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		526174A31AE297BC006ABCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		526174A51AE297BC006ABCE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		526174A81AE297BC006ABCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		526174AE1AE297BC006ABCE5 /* KicksAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KicksAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526174B31AE297BC006ABCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526174B41AE297BC006ABCE5 /* KicksAdvisorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KicksAdvisorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526174921AE297BC006ABCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526174AB1AE297BC006ABCE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5261748C1AE297BC006ABCE5 = {
+			isa = PBXGroup;
+			children = (
+				526174971AE297BC006ABCE5 /* KicksAdvisor */,
+				526174B11AE297BC006ABCE5 /* KicksAdvisorTests */,
+				526174961AE297BC006ABCE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526174961AE297BC006ABCE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526174951AE297BC006ABCE5 /* KicksAdvisor.app */,
+				526174AE1AE297BC006ABCE5 /* KicksAdvisorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526174971AE297BC006ABCE5 /* KicksAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				5261749C1AE297BC006ABCE5 /* AppDelegate.h */,
+				5261749D1AE297BC006ABCE5 /* AppDelegate.m */,
+				5261749F1AE297BC006ABCE5 /* ViewController.h */,
+				526174A01AE297BC006ABCE5 /* ViewController.m */,
+				526174A21AE297BC006ABCE5 /* Main.storyboard */,
+				526174A51AE297BC006ABCE5 /* Images.xcassets */,
+				526174A71AE297BC006ABCE5 /* LaunchScreen.xib */,
+				526174981AE297BC006ABCE5 /* Supporting Files */,
+			);
+			path = KicksAdvisor;
+			sourceTree = "<group>";
+		};
+		526174981AE297BC006ABCE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526174991AE297BC006ABCE5 /* Info.plist */,
+				5261749A1AE297BC006ABCE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		526174B11AE297BC006ABCE5 /* KicksAdvisorTests */ = {
+			isa = PBXGroup;
+			children = (
+				526174B41AE297BC006ABCE5 /* KicksAdvisorTests.m */,
+				526174B21AE297BC006ABCE5 /* Supporting Files */,
+			);
+			path = KicksAdvisorTests;
+			sourceTree = "<group>";
+		};
+		526174B21AE297BC006ABCE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526174B31AE297BC006ABCE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526174941AE297BC006ABCE5 /* KicksAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526174B81AE297BC006ABCE5 /* Build configuration list for PBXNativeTarget "KicksAdvisor" */;
+			buildPhases = (
+				526174911AE297BC006ABCE5 /* Sources */,
+				526174921AE297BC006ABCE5 /* Frameworks */,
+				526174931AE297BC006ABCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KicksAdvisor;
+			productName = KicksAdvisor;
+			productReference = 526174951AE297BC006ABCE5 /* KicksAdvisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526174AD1AE297BC006ABCE5 /* KicksAdvisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526174BB1AE297BC006ABCE5 /* Build configuration list for PBXNativeTarget "KicksAdvisorTests" */;
+			buildPhases = (
+				526174AA1AE297BC006ABCE5 /* Sources */,
+				526174AB1AE297BC006ABCE5 /* Frameworks */,
+				526174AC1AE297BC006ABCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526174B01AE297BC006ABCE5 /* PBXTargetDependency */,
+			);
+			name = KicksAdvisorTests;
+			productName = KicksAdvisorTests;
+			productReference = 526174AE1AE297BC006ABCE5 /* KicksAdvisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5261748D1AE297BC006ABCE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Gai, Fabio";
+				TargetAttributes = {
+					526174941AE297BC006ABCE5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					526174AD1AE297BC006ABCE5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 526174941AE297BC006ABCE5;
+					};
+				};
+			};
+			buildConfigurationList = 526174901AE297BC006ABCE5 /* Build configuration list for PBXProject "KicksAdvisor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5261748C1AE297BC006ABCE5;
+			productRefGroup = 526174961AE297BC006ABCE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526174941AE297BC006ABCE5 /* KicksAdvisor */,
+				526174AD1AE297BC006ABCE5 /* KicksAdvisorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526174931AE297BC006ABCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526174A41AE297BC006ABCE5 /* Main.storyboard in Resources */,
+				526174A91AE297BC006ABCE5 /* LaunchScreen.xib in Resources */,
+				526174A61AE297BC006ABCE5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526174AC1AE297BC006ABCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526174911AE297BC006ABCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526174A11AE297BC006ABCE5 /* ViewController.m in Sources */,
+				5261749E1AE297BC006ABCE5 /* AppDelegate.m in Sources */,
+				5261749B1AE297BC006ABCE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526174AA1AE297BC006ABCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526174B51AE297BC006ABCE5 /* KicksAdvisorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526174B01AE297BC006ABCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526174941AE297BC006ABCE5 /* KicksAdvisor */;
+			targetProxy = 526174AF1AE297BC006ABCE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		526174A21AE297BC006ABCE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526174A31AE297BC006ABCE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		526174A71AE297BC006ABCE5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526174A81AE297BC006ABCE5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526174B61AE297BC006ABCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526174B71AE297BC006ABCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526174B91AE297BC006ABCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KicksAdvisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		526174BA1AE297BC006ABCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KicksAdvisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		526174BC1AE297BC006ABCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KicksAdvisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KicksAdvisor.app/KicksAdvisor";
+			};
+			name = Debug;
+		};
+		526174BD1AE297BC006ABCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KicksAdvisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KicksAdvisor.app/KicksAdvisor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526174901AE297BC006ABCE5 /* Build configuration list for PBXProject "KicksAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526174B61AE297BC006ABCE5 /* Debug */,
+				526174B71AE297BC006ABCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526174B81AE297BC006ABCE5 /* Build configuration list for PBXNativeTarget "KicksAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526174B91AE297BC006ABCE5 /* Debug */,
+				526174BA1AE297BC006ABCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		526174BB1AE297BC006ABCE5 /* Build configuration list for PBXNativeTarget "KicksAdvisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526174BC1AE297BC006ABCE5 /* Debug */,
+				526174BD1AE297BC006ABCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5261748D1AE297BC006ABCE5 /* Project object */;
+}
