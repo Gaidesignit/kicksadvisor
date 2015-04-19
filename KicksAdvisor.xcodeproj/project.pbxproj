@@ -9,19 +9,14 @@
 /* Begin PBXBuildFile section */
 		5261749B1AE297BC006ABCE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261749A1AE297BC006ABCE5 /* main.m */; };
 		5261749E1AE297BC006ABCE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261749D1AE297BC006ABCE5 /* AppDelegate.m */; };
-		526174A41AE297BC006ABCE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526174A21AE297BC006ABCE5 /* Main.storyboard */; };
 		526174A61AE297BC006ABCE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526174A51AE297BC006ABCE5 /* Images.xcassets */; };
 		526174A91AE297BC006ABCE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526174A71AE297BC006ABCE5 /* LaunchScreen.xib */; };
 		526174B51AE297BC006ABCE5 /* KicksAdvisorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174B41AE297BC006ABCE5 /* KicksAdvisorTests.m */; };
 		526174C41AE29A80006ABCE5 /* JumpStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174C31AE29A80006ABCE5 /* JumpStoryboard.m */; };
-		526174C81AE29C07006ABCE5 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526174C71AE29C07006ABCE5 /* Intro.storyboard */; };
-		526174CB1AE29CD0006ABCE5 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174CA1AE29CD0006ABCE5 /* IntroViewController.m */; };
 		526174CE1AE2A5F8006ABCE5 /* FadeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174CD1AE2A5F8006ABCE5 /* FadeSegue.m */; };
 		526174D11AE2BF3B006ABCE5 /* RightSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174D01AE2BF3B006ABCE5 /* RightSegue.m */; };
-		526174D41AE2C79D006ABCE5 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174D31AE2C79D006ABCE5 /* TutorialViewController.m */; };
 		526174D71AE2C7CB006ABCE5 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174D61AE2C7CB006ABCE5 /* Database.m */; };
 		526174E61AE2CDCF006ABCE5 /* UICollectionViewCell+Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174E51AE2CDCF006ABCE5 /* UICollectionViewCell+Content.m */; };
-		526174EC1AE2D03E006ABCE5 /* TutorialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174EA1AE2D03E006ABCE5 /* TutorialItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +35,6 @@
 		5261749A1AE297BC006ABCE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5261749C1AE297BC006ABCE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5261749D1AE297BC006ABCE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		526174A31AE297BC006ABCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		526174A51AE297BC006ABCE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		526174A81AE297BC006ABCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		526174AE1AE297BC006ABCE5 /* KicksAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KicksAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,21 +42,14 @@
 		526174B41AE297BC006ABCE5 /* KicksAdvisorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KicksAdvisorTests.m; sourceTree = "<group>"; };
 		526174C21AE29A80006ABCE5 /* JumpStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JumpStoryboard.h; path = Components/Segues/JumpStoryboard.h; sourceTree = "<group>"; };
 		526174C31AE29A80006ABCE5 /* JumpStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JumpStoryboard.m; path = Components/Segues/JumpStoryboard.m; sourceTree = "<group>"; };
-		526174C71AE29C07006ABCE5 /* Intro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Intro.storyboard; path = Storyboards/Intro.storyboard; sourceTree = "<group>"; };
-		526174C91AE29CD0006ABCE5 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = Controllers/IntroViewController.h; sourceTree = "<group>"; };
-		526174CA1AE29CD0006ABCE5 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = Controllers/IntroViewController.m; sourceTree = "<group>"; };
 		526174CC1AE2A5F8006ABCE5 /* FadeSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FadeSegue.h; path = Components/Segues/FadeSegue.h; sourceTree = "<group>"; };
 		526174CD1AE2A5F8006ABCE5 /* FadeSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FadeSegue.m; path = Components/Segues/FadeSegue.m; sourceTree = "<group>"; };
 		526174CF1AE2BF3B006ABCE5 /* RightSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightSegue.h; path = Components/Segues/RightSegue.h; sourceTree = "<group>"; };
 		526174D01AE2BF3B006ABCE5 /* RightSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightSegue.m; path = Components/Segues/RightSegue.m; sourceTree = "<group>"; };
-		526174D21AE2C79D006ABCE5 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialViewController.h; path = Controllers/TutorialViewController.h; sourceTree = "<group>"; };
-		526174D31AE2C79D006ABCE5 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialViewController.m; path = Controllers/TutorialViewController.m; sourceTree = "<group>"; };
 		526174D51AE2C7CB006ABCE5 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Controllers/Database.h; sourceTree = "<group>"; };
 		526174D61AE2C7CB006ABCE5 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = Controllers/Database.m; sourceTree = "<group>"; };
 		526174E41AE2CDCF006ABCE5 /* UICollectionViewCell+Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+Content.h"; path = "Components/Categories/UICollectionViewCell+Content.h"; sourceTree = "<group>"; };
 		526174E51AE2CDCF006ABCE5 /* UICollectionViewCell+Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+Content.m"; path = "Components/Categories/UICollectionViewCell+Content.m"; sourceTree = "<group>"; };
-		526174E91AE2D03E006ABCE5 /* TutorialItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialItem.h; path = Controllers/TutorialItem.h; sourceTree = "<group>"; };
-		526174EA1AE2D03E006ABCE5 /* TutorialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialItem.m; path = Controllers/TutorialItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +133,6 @@
 			children = (
 				5261749C1AE297BC006ABCE5 /* AppDelegate.h */,
 				5261749D1AE297BC006ABCE5 /* AppDelegate.m */,
-				526174C61AE29BDE006ABCE5 /* Intro */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -173,8 +159,6 @@
 		526174C11AE29A35006ABCE5 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				526174C71AE29C07006ABCE5 /* Intro.storyboard */,
-				526174A21AE297BC006ABCE5 /* Main.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -190,19 +174,6 @@
 				526174D01AE2BF3B006ABCE5 /* RightSegue.m */,
 			);
 			name = Segues;
-			sourceTree = "<group>";
-		};
-		526174C61AE29BDE006ABCE5 /* Intro */ = {
-			isa = PBXGroup;
-			children = (
-				526174C91AE29CD0006ABCE5 /* IntroViewController.h */,
-				526174CA1AE29CD0006ABCE5 /* IntroViewController.m */,
-				526174D21AE2C79D006ABCE5 /* TutorialViewController.h */,
-				526174D31AE2C79D006ABCE5 /* TutorialViewController.m */,
-				526174E91AE2D03E006ABCE5 /* TutorialItem.h */,
-				526174EA1AE2D03E006ABCE5 /* TutorialItem.m */,
-			);
-			name = Intro;
 			sourceTree = "<group>";
 		};
 		526174D81AE2C885006ABCE5 /* Utilities */ = {
@@ -309,10 +280,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526174A41AE297BC006ABCE5 /* Main.storyboard in Resources */,
 				526174A91AE297BC006ABCE5 /* LaunchScreen.xib in Resources */,
 				526174A61AE297BC006ABCE5 /* Images.xcassets in Resources */,
-				526174C81AE29C07006ABCE5 /* Intro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,16 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526174D41AE2C79D006ABCE5 /* TutorialViewController.m in Sources */,
 				526174C41AE29A80006ABCE5 /* JumpStoryboard.m in Sources */,
 				526174E61AE2CDCF006ABCE5 /* UICollectionViewCell+Content.m in Sources */,
-				526174EC1AE2D03E006ABCE5 /* TutorialItem.m in Sources */,
 				526174D71AE2C7CB006ABCE5 /* Database.m in Sources */,
 				5261749E1AE297BC006ABCE5 /* AppDelegate.m in Sources */,
 				526174D11AE2BF3B006ABCE5 /* RightSegue.m in Sources */,
 				526174CE1AE2A5F8006ABCE5 /* FadeSegue.m in Sources */,
 				5261749B1AE297BC006ABCE5 /* main.m in Sources */,
-				526174CB1AE29CD0006ABCE5 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		526174A21AE297BC006ABCE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				526174A31AE297BC006ABCE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		526174A71AE297BC006ABCE5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
