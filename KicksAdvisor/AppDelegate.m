@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "define.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [application setStatusBarStyle:UIStatusBarStyleLightContent];
+   
+    [[UINavigationBar appearance] setBarTintColor: COLOR_APP];
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           COLOR_APP_WHITE, NSForegroundColorAttributeName,
+                                                           [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0],NSShadowAttributeName,
+                                                           [NSValue valueWithUIOffset:UIOffsetMake(0, 0)],
+                                                           NSShadowAttributeName,
+                                                           FONT(18), NSFontAttributeName, nil]];
+    
+    
+    [[UITabBar appearance] setTintColor:COLOR_APP_WHITE];
+    [[UITabBar appearance] setBarTintColor:COLOR_APP_BLACK];
+    [[UITabBar appearance] setBackgroundColor:COLOR_APP];
+    
     return YES;
 }
 

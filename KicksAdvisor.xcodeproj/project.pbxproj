@@ -17,6 +17,7 @@
 		526174D11AE2BF3B006ABCE5 /* RightSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174D01AE2BF3B006ABCE5 /* RightSegue.m */; };
 		526174D71AE2C7CB006ABCE5 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174D61AE2C7CB006ABCE5 /* Database.m */; };
 		526174E61AE2CDCF006ABCE5 /* UICollectionViewCell+Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 526174E51AE2CDCF006ABCE5 /* UICollectionViewCell+Content.m */; };
+		5283FE471AE3BE0000BEBEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5283FE461AE3BE0000BEBEE2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		526174D61AE2C7CB006ABCE5 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = Controllers/Database.m; sourceTree = "<group>"; };
 		526174E41AE2CDCF006ABCE5 /* UICollectionViewCell+Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+Content.h"; path = "Components/Categories/UICollectionViewCell+Content.h"; sourceTree = "<group>"; };
 		526174E51AE2CDCF006ABCE5 /* UICollectionViewCell+Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+Content.m"; path = "Components/Categories/UICollectionViewCell+Content.m"; sourceTree = "<group>"; };
+		5283FE461AE3BE0000BEBEE2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		5283FE491AE3C56100BEBEE2 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				526174991AE297BC006ABCE5 /* Info.plist */,
+				5283FE491AE3C56100BEBEE2 /* define.h */,
 				5261749A1AE297BC006ABCE5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -159,6 +163,7 @@
 		526174C11AE29A35006ABCE5 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				5283FE461AE3BE0000BEBEE2 /* Main.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5283FE471AE3BE0000BEBEE2 /* Main.storyboard in Resources */,
 				526174A91AE297BC006ABCE5 /* LaunchScreen.xib in Resources */,
 				526174A61AE297BC006ABCE5 /* Images.xcassets in Resources */,
 			);
@@ -362,8 +368,11 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -406,7 +415,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -425,6 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KicksAdvisor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KicksAdvisor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
